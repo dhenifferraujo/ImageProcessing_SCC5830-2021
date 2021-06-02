@@ -1,6 +1,7 @@
-Alunos: Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 
+Alunos: 
 
-        Douglas Queiroz Galúcio Batista Nº USP: 12114819
+Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 
+Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
 Título do Projeto: Realce e Segmentação aplicados em imagens para detecção do nível do rio em São Carlos.
 
