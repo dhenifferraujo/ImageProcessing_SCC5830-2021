@@ -6,7 +6,7 @@ Resumo: Nos últimos anos, o aumento de eventos de enchentes e inundações vêm
 
 Para os testes usaremos imagens capturadas pelo projeto e-Noé disponível no link: http://www.cemeai.icmc.usp.br/component/k2/itemlist/tag/eNOE.
 
-As imagens de exemplo podem ser acessadas neste repositório na pasta “images”.
+As imagens de referência podem ser acessadas neste repositório na pasta “images”.
 
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
 
