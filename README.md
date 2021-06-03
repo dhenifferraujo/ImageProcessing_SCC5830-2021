@@ -8,3 +8,26 @@ Para os testes usaremos imagens capturadas pelo projeto e-Noé disponível no li
 
 As imagens de referência podem ser acessadas neste repositório na pasta “images”.
 
+
+
+
+
+# Exemplos de algumas imagens de entrada: 
+
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
+
+ 
+ 
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20201123_055030-SHOP2.jpg)
+
+
+
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190125_215542-SHOP2.jpg)
+
+
+
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190428_183200-SHOP2.jpg)
