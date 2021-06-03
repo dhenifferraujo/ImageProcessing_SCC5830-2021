@@ -11,3 +11,10 @@ Outputs esperadas: imagens normalizadas, sem ruídos e realçando os marcadores 
 
 As imagens de exemplo podem ser acessadas na pasta “images”  no repositório do git: ImageProcessing_SCC5830-2021/Projeto_Final/images
 
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20201123_055030-SHOP2.jpg)
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190125_215542-SHOP2.jpg)
+
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190428_183200-SHOP2.jpg)
