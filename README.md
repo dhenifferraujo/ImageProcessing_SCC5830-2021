@@ -9,7 +9,7 @@ Para os testes usaremos imagens capturadas pelo projeto e-Noé disponível no li
 As imagens de referência podem ser acessadas neste repositório na pasta “images”.
 
 
-                                   Imagem capturada 00:00 de 2016:
+   Imagem capturada 00:00 de 2016:
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
 
 
