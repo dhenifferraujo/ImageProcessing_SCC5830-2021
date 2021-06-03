@@ -17,12 +17,16 @@ As imagens de referência podem ser acessadas neste repositório na pasta “ima
 
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
 
-
+ 
+ 
 
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20201123_055030-SHOP2.jpg)
 
 
+
+
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190125_215542-SHOP2.jpg)
+
 
 
 
