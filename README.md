@@ -24,7 +24,7 @@ Imagem real simulando 40 marcadores |Imagem real simulando 40 marcadores em um �
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300">
 
-Imagem real simulando 40 marcadores em um ângulo diferente e menor resolução |Imagem real no ângulo de 90 graus e em posição diferente
+Imagem com 40 marcadores em um ângulo diferente e menor resolução |Imagem real no ângulo de 90 graus e em posição diferente
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste3.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste4.jpeg" width="300" height="300">
 
