@@ -22,8 +22,8 @@ Todas as imagens de referência podem ser acessadas neste repositório na pasta 
 
 Imagem 1 |Imagem 2
 :-------------------------:|:-------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300"> |
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300"> |
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300"> 
 
 Imagem 3 |Imagem 4
 :-------------------------:|:-------------------------:
@@ -36,7 +36,9 @@ Imagem 5|Imagem 6
 
 
   
-  
+  Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
   
   
 **Materiais e Métodos:**
