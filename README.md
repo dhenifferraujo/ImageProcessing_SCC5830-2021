@@ -38,5 +38,8 @@ Imagem real com ângulo de 130 graus
 :-------------------------:|
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
+  
+  
+  
 **Materiais e Métodos:**
 Ainda estamos fazendo </div>
