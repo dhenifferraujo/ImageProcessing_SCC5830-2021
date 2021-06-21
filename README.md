@@ -32,7 +32,6 @@ As imagens de referência podem ser acessadas neste repositório na pasta “img
 # Exemplos de algumas imagens de entrada: 
 
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">
-![Legenda](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg)
 
 
 ![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg)
