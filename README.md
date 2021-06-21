@@ -31,7 +31,7 @@ As imagens de referência podem ser acessadas neste repositório na pasta “img
 
 # Exemplos de algumas imagens de entrada: 
 
-Solarized dark             |  Solarized Ocean
+Imagem Teste 1            |Imagem Teste 2
 :-------------------------:|:-------------------------:
 ![](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg)  |  ![](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg)
 
