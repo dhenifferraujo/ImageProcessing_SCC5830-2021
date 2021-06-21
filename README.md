@@ -22,7 +22,7 @@ Todas as imagens de referência podem ser acessadas neste repositório na pasta 
 
 Imagem com 40 marcadores |Imagem com 40 marcadores em um ângulo diferente
 :-------------------------:|:-------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300"> |
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300">
 
 Imagem com 40 marcadores em um ângulo diferente e menor resolução |Imagem real no ângulo de 90 graus e em posição diferente
