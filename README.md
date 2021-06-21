@@ -13,23 +13,26 @@ Nos últimos anos, o aumento de eventos de enchentes e inundações vêm afetand
 Aplicar técnicas de realce e segmentação em imagens capturadas dos rios de São Carlos, a fim de melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível do rio. 
 
 **Descrição das Imagens de Entrada:**
-As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos. 
+As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos.
+
+**Exemplos de imagens de entrada**
+Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.).
+
 
 **Materiais e Métodos:**
 Ainda estamos fazendo
 
 
 
-(Para os testes usaremos imagens capturadas pelo projeto e-Noé disponível no link: http://www.cemeai.icmc.usp.br/component/k2/itemlist/tag/eNOE.
 
-As imagens de referência podem ser acessadas neste repositório na pasta “images”.). *Ainda não sabemos se isso será possível. 
+As imagens de referência podem ser acessadas neste repositório na pasta “imgs”.).
 
 
 
 # Exemplos de algumas imagens de entrada: 
 
 
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg)
 
  
  
