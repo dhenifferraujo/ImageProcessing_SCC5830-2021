@@ -15,26 +15,26 @@ Nos últimos anos, o aumento de eventos de enchentes e inundações vêm afetand
 Aplicar técnicas de realce e segmentação em imagens capturadas dos rios de São Carlos, a fim de melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível do rio. 
 
 **Descrição das Imagens de Entrada:**
-As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos.
+As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos. 
 
 **Exemplos de imagens de entrada**
 Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
 
 **Exemplos de algumas imagens de entrada:** 
 
-Imagem Teste 1            |Imagem Teste 2
+Imagem real simulando 40 marcadores |Imagem real simulando 40 marcadores em um ângulo diferente
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300">
 
-Imagem Teste 3            |Imagem Teste 4
+Imagem real simulando 40 marcadores em um ângulo diferente |Imagem real no ângulo de 90 graus e em posição diferente
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste3.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste4.jpeg" width="300" height="300">
 
-Imagem Teste 5            |Imagem Teste 6
+Imagem real com uma maior distância e menor resolução|Imagem real com maior distância e ângulo diferente
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste6.jpeg" width="300" height="300">
 
-Imagem Teste 7            
+Imagem real com ângulo de 130 graus           
 :-------------------------:|
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
