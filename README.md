@@ -1,5 +1,7 @@
 # Projeto Final de Processamento de Imagens 2021 - Relatório Parcial
 
+<div style="text-align: justify"> 
+
 **Alunos:** Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 e Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
 **Título do Projeto:** Realce e Segmentação aplicados em imagens para detecção do nível do rio em São Carlos.
@@ -39,3 +41,5 @@ Imagem Teste 7
 **Materiais e Métodos:**
 Ainda estamos fazendo
 
+  
+</div>
