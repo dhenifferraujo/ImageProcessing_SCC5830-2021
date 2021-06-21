@@ -32,7 +32,7 @@ As imagens de referência podem ser acessadas neste repositório na pasta “img
 # Exemplos de algumas imagens de entrada: 
 
 
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg = 100x100)
+![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg=100x100)
 
  
  
