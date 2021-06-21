@@ -16,7 +16,7 @@ Aplicar técnicas de realce e segmentação em imagens capturadas dos rios de S�
 As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos.
 
 **Exemplos de imagens de entrada**
-Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.).
+Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
 
 **Exemplos de algumas imagens de entrada:** 
 
