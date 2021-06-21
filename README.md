@@ -18,18 +18,7 @@ As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a rea
 **Exemplos de imagens de entrada**
 Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.).
 
-
-**Materiais e Métodos:**
-Ainda estamos fazendo
-
-
-
-
-As imagens de referência podem ser acessadas neste repositório na pasta “imgs”.).
-
-
-
-# Exemplos de algumas imagens de entrada: 
+**Exemplos de algumas imagens de entrada:** 
 
 Imagem Teste 1            |Imagem Teste 2
 :-------------------------:|:-------------------------:
@@ -43,10 +32,10 @@ Imagem Teste 5            |Imagem Teste 6
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste6.jpeg" width="300" height="300">
 
-
 Imagem Teste 7            
 :-------------------------:|
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
-
+**Materiais e Métodos:**
+Ainda estamos fazendo
 
