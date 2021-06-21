@@ -1,6 +1,6 @@
+<div style="text-align: justify"> 
 # Projeto Final de Processamento de Imagens 2021 - Relatório Parcial
 
-<div style="text-align: justify"> 
 
 **Alunos:** Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 e Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
@@ -39,7 +39,4 @@ Imagem Teste 7
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
 **Materiais e Métodos:**
-Ainda estamos fazendo
-
-  
-</div>
+Ainda estamos fazendo </div>
