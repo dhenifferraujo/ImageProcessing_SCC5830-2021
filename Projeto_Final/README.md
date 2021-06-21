@@ -1,4 +1,4 @@
-#Projeto Final de Processamento de Imagens 2021 - Relatório Parcial
+# Projeto Final de Processamento de Imagens 2021 - Relatório Parcial
 
 **Alunos:** Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 e Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
