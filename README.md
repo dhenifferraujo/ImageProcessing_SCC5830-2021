@@ -1,5 +1,6 @@
 # Projeto Final de Processamento de Imagens 2021 - Relatório Parcial
 
+
 **Alunos:** Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 e Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
 **Título do Projeto:** Realce e Segmentação aplicados em imagens para detecção do nível do rio em São Carlos.
@@ -13,35 +14,27 @@ Nos últimos anos, o aumento de eventos de enchentes e inundações vêm afetand
 Aplicar técnicas de realce e segmentação em imagens capturadas dos rios de São Carlos, a fim de melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível do rio. 
 
 **Descrição das Imagens de Entrada:**
-As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos. 
+As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas por nós mesmos. Para essa primeira etapa dos testes as imagens se diferenciam pelo ângulo, distância e resolução. 
 
+**Exemplos de imagens de entrada**
+Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
+
+
+Imagem 1 |Imagem 2
+:-------------------------:|:-------------------------:
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300"> | <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300"> 
+
+Imagem 3 |Imagem 4
+:-------------------------:|:-------------------------:
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste3.jpeg" width="300" height="300"> | <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste4.jpeg" width="300" height="300">
+
+Imagem 5|Imagem 6  
+:-------------------------:|:-------------------------:
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
+
+
+  
+
+  
+  
 **Materiais e Métodos:**
-Ainda estamos fazendo
-
-
-
-(Para os testes usaremos imagens capturadas pelo projeto e-Noé disponível no link: http://www.cemeai.icmc.usp.br/component/k2/itemlist/tag/eNOE.
-
-As imagens de referência podem ser acessadas neste repositório na pasta “images”.). *Ainda não sabemos se isso será possível. 
-
-
-
-# Exemplos de algumas imagens de entrada: 
-
-
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20160918_000004.jpg)
-
- 
- 
-
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20201123_055030-SHOP2.jpg)
-
-
-
-
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190125_215542-SHOP2.jpg)
-
-
-
-
-![alt text](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/images/20190428_183200-SHOP2.jpg)
