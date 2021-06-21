@@ -20,8 +20,6 @@ As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a rea
 **Exemplos de imagens de entrada**
 Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
 
-**Exemplos de algumas imagens de entrada:** 
-
 Imagem real simulando 40 marcadores |Imagem real simulando 40 marcadores em um ângulo diferente
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste1.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste2.jpeg" width="300" height="300">
@@ -38,6 +36,7 @@ Imagem real com ângulo de 130 graus
 :-------------------------:|
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
+  
   
   
   
