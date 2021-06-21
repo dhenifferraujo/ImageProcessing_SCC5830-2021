@@ -43,7 +43,9 @@ Imagem Teste 5            |Imagem Teste 6
 :-------------------------:|:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste6.jpeg" width="300" height="300">
 
-Imagem Teste 7
+
+Imagem Teste 7            
+:-------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
 
