@@ -58,9 +58,8 @@ Imagem 5|Imagem 6
 Os códigos iniciais implementados nos testes podem ser acessados no repositório do GitHub <https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final> na pasta "codes".
 </p>
 
-**Código Inicial:**
+
 <p align="justify">
-Os códigos iniciais implementados nos testes podem ser acessados neste repositório na pasta "codes".
 O código "teste_v1" pega as imagens, transforma em escala de cinza e então procura os contornos usando o "threshold", "canny" e "findContour" da biblioteca OpenCV sem nenhum melhoramento das imagens. Por fim, é feito um laço de repetição para encontrar as formas geométricas de um retângulo;
 </p>
 
