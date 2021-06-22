@@ -10,13 +10,13 @@
 Nos últimos anos, o aumento de eventos de enchentes e inundações vêm afetando o mundo inteiro. No Brasil, frequentemente ocorrem enchentes e inundações, principalmente durante os períodos chuvosos. Esses eventos resultam em grandes prejuízos sociais e econômicos. No município de São Carlos, localizado no interior de São Paulo, constantemente ocorrem episódios de enchentes que acarretam em muitos danos para a população local. À vista disso, esse projeto visa minimizar os danos causados pelas enchentes, bem como facilitar a detecção desses eventos através da medição dos marcadores de nível de rio e aplica técnicas de realce, restauração e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível dos rios.
 
 
-**Objetivo Principal do Projeto:**
+### Objetivo Principal do Projeto:
 Melhorar o processo de detecção de enchentes através da aplicação de técnicas de processamento de imagens, tais como realce, restauração e morfologia em imagens capturadas dos rios de São Carlos, a fim de  melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível de água dos rios. 
 
-**Descrição das Imagens de Entrada:**
+### Descrição das Imagens de Entrada:
 As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas manualmente pelos autores. Para essa primeira etapa dos testes as imagens se diferenciam pelo ângulo, distância e resolução. 
 
-**Exemplos de imagens de entrada**
+### Exemplos de imagens de entrada:
 Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
 
 
@@ -33,7 +33,7 @@ Imagem 5|Imagem 6
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="300" height="300">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="300" height="300">
 
 
-**Materiais e Métodos:**
+### Materiais e Métodos:
 - Elaborar imagens com ruídos/ocultações nos marcadores para simular um cenário real;
 - Simular condições de uma foto real ao invés de usar fotos sintéticas;
 - Ler as imagens e converter em uma escala de cinza usando o filtro *"grayscale"*;
@@ -41,7 +41,7 @@ Imagem 5|Imagem 6
 - Usar técnicas de detecção de bordas das imagens, como: *"threshold"* e *"findContour"*;
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
-**Código Inicial:**
+### Código Inicial:
 Os códigos iniciais implementados nos testes podem ser acessados neste repositório na pasta "codes".
 
 O código "teste_v1" transforma as imagens em escala de cinza e então procura os contornos usando as funções threshold(), canny() e findContour() da biblioteca OpenCV, ou seja, limiariza as imagens. Por fim, é feito um laço de repetição (loop) para encontrar as formas geométricas de um retângulo na imagem;
