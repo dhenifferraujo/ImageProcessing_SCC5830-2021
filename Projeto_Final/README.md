@@ -60,7 +60,7 @@ Os códigos iniciais implementados nos testes podem ser acessados no repositóri
 
 
 <p align="justify">
-O código [teste v1](https://pages.github.com/) transforma as imagens em escala de cinza usando o filtro "grayscale" e então procura os contornos usando as funções threshold(), canny() e findContour() da biblioteca OpenCV, ou seja, limiariza as imagens. Por fim, é feito um laço de repetição (loop) para encontrar as formas geométricas de um retângulo na imagem;
+O código [teste v1](https://pages.github.com/). transforma as imagens em escala de cinza usando o filtro "grayscale" e então procura os contornos usando as funções threshold(), canny() e findContour() da biblioteca OpenCV, ou seja, limiariza as imagens. Por fim, é feito um laço de repetição (loop) para encontrar as formas geométricas de um retângulo na imagem;
  
  Este site foi construído usando [GitHub Pages](https://pages.github.com/).
   
