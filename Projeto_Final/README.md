@@ -65,13 +65,11 @@ O código [teste v1](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2
   
 </p>
  
- Este site foi construído usando [GitHub Pages](https://pages.github.com/).
   
-
 <p align="justify">
-No código "teste_v2" usamos a técnica  LBP (Local Binary Pattern) para classificação de textura, além disso utilizamos um filtro morfológico de erosão e dilatação. Usando os métodos erode() e dilate(). Em seguida, nós implementamos uma técnica de remoção de ruído através do filtro Gaussiano. Finalmente, analisamos as formas geométricas de um retângulo na imagem através de um laço de repetição;
+No código [teste v2](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/codes/teste_v2.py) usamos a técnica  LBP (Local Binary Pattern) para classificação de textura, além disso utilizamos um filtro morfológico de erosão e dilatação. Usando os métodos erode() e dilate(). Em seguida, nós implementamos uma técnica de remoção de ruído através do filtro Gaussiano. Finalmente, analisamos as formas geométricas de um retângulo na imagem através de um laço de repetição;
 </p>
 
 <p align="justify">
-No código "teste_v3" utilizamos um filtro 2D (Filtro Linear Arbitrário), em seguida usamos o threshold() e findContour() para detectar os contornos das imagens. Então, fizemos um laço de repetição para verificar quais dos contornos têm a forma de um retângulo. Por fim, o algoritmo faz a contagem dos retângulos (barras) encontrados na imagem. 
+No código [teste v3](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/codes/teste_v2.py) utilizamos um filtro 2D (Filtro Linear Arbitrário), em seguida usamos o threshold() e findContour() para detectar os contornos das imagens. Então, fizemos um laço de repetição para verificar quais dos contornos têm a forma de um retângulo. Por fim, o algoritmo faz a contagem dos retângulos (barras) encontrados na imagem. 
 </p>
