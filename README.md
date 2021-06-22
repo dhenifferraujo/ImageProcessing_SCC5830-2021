@@ -3,7 +3,7 @@
 
 **Alunos:** Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 e Douglas Queiroz Galúcio Batista Nº USP: 12114819
 
-##Título do Projeto: Realce e Segmentação aplicados em imagens para detecção do nível do rio em São Carlos.
+## Título do Projeto: Realce e Segmentação aplicados em imagens para detecção do nível do rio em São Carlos.
 
 **Resumo:**
 
