@@ -45,11 +45,11 @@ def analyze_blob(matblobs,display_frame):
       sh = temp
 
     # minimum area
-    if sw * sh < 20:
+    if sw * sh < 100:
       continue
 
     # maximum area
-    if sw * sh > 100:
+    if sw * sh > 1000:
       continue  
 
     # ratio of box

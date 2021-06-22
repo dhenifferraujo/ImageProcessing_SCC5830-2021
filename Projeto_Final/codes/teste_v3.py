@@ -31,8 +31,8 @@ for i in range(len(contours)):
     cY = int(M["m01"] / M["m00"])
 
   if (area > 50 and area < 220 and hierarchy[0][i][2] < 0 and (ratio > .5 and ratio < 2)):
-    #cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
-    cv2.circle(img, (cX, cY), 1, (255, 255, 255), -1)
+    cv2.rectangle(img, (x,y), (x+w,y+h), (0,255,0), 2)
+    #cv2.circle(img, (cX, cY), 1, (255, 255, 255), -1)
     count = count + 1 
 
 
