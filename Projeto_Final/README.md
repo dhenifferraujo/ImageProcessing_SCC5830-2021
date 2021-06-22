@@ -49,7 +49,7 @@ Imagem 5|Imagem 6
 - Simular condições de uma foto real ao invés de usar fotos sintéticas;
 - Ler as imagens e converter em uma escala de cinza usando o filtro *"grayscale"*;
 - Utilizar técnicas de morfologia para aprimorar imagens e realçar os contornos;
-- Usar técnicas de detecção de bordas das imagens, como: *"threshold"* e *"findContour"*;
+- Usar técnicas de detecção de bordas das imagens, como: *"threshold"* e *"findContours"*;
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
 ### Código Inicial:
@@ -74,6 +74,6 @@ No código [teste_v2](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-
 
 <p align="justify">
   
-No código [teste_v3](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/codes/teste_v3.py) utilizamos um filtro 2D (Filtro Linear Arbitrário), em seguida usamos o threshold() e findContour() para detectar os contornos das imagens. Então, fizemos um laço de repetição para verificar quais dos contornos têm a forma de um retângulo. Por fim, o algoritmo faz a contagem dos retângulos (barras) encontrados na imagem. 
+No código [teste_v3](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/codes/teste_v3.py) utilizamos um filtro 2D (Filtro Linear Arbitrário), em seguida usamos o threshold() e findContours() para detectar os contornos das imagens. Então, fizemos um laço de repetição para verificar quais dos contornos têm a forma de um retângulo. Por fim, o algoritmo faz a contagem dos retângulos (barras) encontrados na imagem. 
   
 </p>
