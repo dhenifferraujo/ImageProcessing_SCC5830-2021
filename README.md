@@ -42,7 +42,10 @@ Imagem 5|Imagem 6
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
 ### Código Inicial:
-Os códigos iniciais implementados nos testes podem ser acessados no repositório [(https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final)] na pasta "codes".
+Os códigos iniciais implementados nos testes podem ser acessados no [nosso repositório do GitHub](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final) na pasta "codes".
+
+
+
 
 O código "teste_v1" transforma as imagens em escala de cinza e então procura os contornos usando as funções threshold(), canny() e findContour() da biblioteca OpenCV, ou seja, limiariza as imagens. Por fim, é feito um laço de repetição (loop) para encontrar as formas geométricas de um retângulo na imagem;
 
