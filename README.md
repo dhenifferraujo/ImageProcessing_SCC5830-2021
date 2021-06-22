@@ -42,7 +42,7 @@ Imagem 5|Imagem 6
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
 ### Código Inicial:
-Os códigos iniciais implementados nos testes podem ser acessados no [nosso repositório do GitHub](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final) na pasta "codes".
+Os códigos iniciais implementados nos testes podem ser acessados no [aqui no nosso repositório do GitHub](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final) na pasta "codes".
 
 
 
