@@ -17,7 +17,7 @@ Melhorar o processo de detecção de enchentes através da aplicação de técni
 As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas manualmente pelos autores. Para essa primeira etapa dos testes as imagens se diferenciam pelo ângulo, distância e resolução. 
 
 ### Exemplos de imagens de entrada:
-Todas as imagens de referência podem ser acessadas no repositório [(https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final)] na pasta “imgs”.
+Todas as imagens de referência podem ser acessadas no repositório https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final na pasta “imgs”.
 
 
 Imagem 1 |Imagem 2
@@ -42,7 +42,7 @@ Imagem 5|Imagem 6
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
 ### Código Inicial:
-Os códigos iniciais implementados nos testes podem ser acessados no [aqui no nosso repositório do GitHub](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final) na pasta "codes".
+Os códigos iniciais implementados nos testes podem ser acessados no repositório do GitHub https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final na pasta "codes".
 
 
 
