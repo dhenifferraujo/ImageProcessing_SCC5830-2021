@@ -48,7 +48,7 @@ Imagem 5|Imagem 6
 - Elaborar imagens com ruídos/ocultações nos marcadores para simular um cenário real;
 - Simular condições de uma foto real ao invés de usar fotos sintéticas;
 - Ler as imagens e converter em uma escala de cinza usando o filtro *"grayscale"*;
-- Aprimorar imagens para realçar os contornos através da técnica de morfologia;
+- Utilizar técnicas de morfologia para aprimorar imagens e realçar os contornos;
 - Usar técnicas de detecção de bordas das imagens, como: *"threshold"* e *"findContour"*;
 - Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
 
@@ -61,6 +61,8 @@ Os códigos iniciais implementados nos testes podem ser acessados no repositóri
 
 <p align="justify">
 O código [teste_v1](https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/codes/teste_v1.py) transforma as imagens em escala de cinza usando o filtro "grayscale" e então procura os contornos usando as funções threshold(), canny() e findContour() da biblioteca OpenCV, ou seja, limiariza as imagens. Por fim, é feito um laço de repetição (loop) para encontrar as formas geométricas de um retângulo na imagem;
+ 
+ Este site foi construído usando [GitHub Pages](https://pages.github.com/).
   
 
 <p align="justify">
