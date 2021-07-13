@@ -53,7 +53,7 @@ Imagem 5|Imagem 6
 
 ### Resultados:
 Todas as imagens de saída podem ser acessadas neste repositório na pasta “imgs/out”.
-Imagem 1
+Imagem Resultado - Sucesso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste01.jpeg" width="400" height="400">
 
