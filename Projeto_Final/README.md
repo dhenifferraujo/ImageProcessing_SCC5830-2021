@@ -53,9 +53,9 @@ Imagem 5|Imagem 6
 
 ### Resultados:
 Todas as imagens de saída podem ser acessadas neste repositório na pasta “imgs/out”.
-A seguir é possível visualizar imagens em que obtivemos resultados positivos. Ou seja, foram encontradas todas as barras:
+A seguir é possível visualizar as imagens 7 e 8 em que obtivemos resultados positivos. Ou seja, foram encontradas todas as barras:
 
-Imagem Resultado - Sucesso
+Imagem 7: Resultado - Sucesso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste01_out.png" width="1000" height="600">
 
