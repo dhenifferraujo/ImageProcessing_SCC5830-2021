@@ -4,13 +4,13 @@
 Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 |Douglas Queiroz Galúcio Batista Nº USP: 12114819
 :------------------------------:|:------------------------------:
 
-## Título do Projeto: Técnicas de morfologia e segmentação aplicadas em imagens para detecção do nível de rios. 
+## Título do Projeto: Técnicas de realce, morfologia e segmentação aplicadas em imagens para detecção do nível de rios. 
 
   
 ### Resumo:
 
 <p align="justify">
-Esse projeto visa detectar o nível de rios através da medição de marcadores de nível de água. Para tal fim, foram aplicadas técnicas de realce, restauração, segmentação e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível de rios.
+Esse projeto visa detectar o nível de rios através da medição de marcadores de nível de água. Para tal fim, foram aplicadas técnicas de realce, segmentação e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível de rios.
 </p>
 
 ### Objetivo Principal do Projeto:
@@ -54,7 +54,7 @@ Imagem 5|Imagem 6
 ### Resultados:
 Todas as imagens de saída podem ser acessadas neste repositório na pasta “imgs/out”.
 
-A seguir é possível visualizar as imagens 7 e 8 em que obtivemos resultados positivos. Ou seja, foram encontradas todas as barras:
+A seguir é possível visualizar as imagens 7 e 8 em que obtivemos resultados positivos. Isto é, foram encontradas todas as barras. Essas imagens possuem algumas características em comum: as barras nas cores predominantemente escuras e o background totalmente branco. Ou seja, elas possuem poucos ruídos.   
 
 Imagem 7: Resultado - Sucesso
 :------------------------------:
@@ -64,7 +64,7 @@ Imagem 8: Resultado - Sucesso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste02_out.png" width="1000" height="600">
 
-A seguir é possível visualizar as imagens 9 e 10 em que obtivemos resultados negativos. Ou seja, algumas barras não foram encontradas:
+A seguir é possível visualizar as imagens 9 e 10 em que obtivemos resultados negativos. Ou seja, algumas barras não foram encontradas. A maioria das imagens que não obtivemos resultados positivos possuíam bastante ruídos. 
 
 Imagem 9: Resultado - Fracasso
 :------------------------------:
@@ -73,6 +73,13 @@ Imagem 9: Resultado - Fracasso
 Imagem 10: Resultado - Fracasso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste10_out.png" width="1000" height="600">
+
+### Componentes:
+
+Dheniffer Caroline Araújo Pessoa
+Douglas Queiroz Galucio Batista
+
+Funções: Nós optamos por trabalhar em conjunto em todas as etapas. Implementamos os códigos e confeccionamos o relatório juntos. 
 
 ### Código do projeto:
 
