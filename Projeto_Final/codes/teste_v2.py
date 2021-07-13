@@ -1,3 +1,4 @@
+#Importação das bibliotecas necessárias
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -5,8 +6,8 @@ import os
 import glob
 
 
-# Morphological function sets
-def morph_operation(matinput):
+# Definição da função morfológica
+def morph_function(matinput):
   kernel =  cv2.getStructuringElement(cv2.MORPH_CROSS,(3,3))
 
   morph = cv2.erode(matinput,kernel,iterations=1)
@@ -17,8 +18,8 @@ def morph_operation(matinput):
   return morph
 
 
-# Analyze blobs
-def analyze_blob(matblobs,display_frame, file):
+# Análise das características
+def analyze_blob(matblobs,countours_frame, file):
 
   blobs,_ = cv2.findContours(matblobs,cv2.RETR_LIST ,cv2.CHAIN_APPROX_SIMPLE)
   valid_blobs = []
@@ -34,8 +35,8 @@ def analyze_blob(matblobs,display_frame, file):
     box = cv2.boxPoints(rot_rect)
     box = np.int0(box)
 
-    # Draw the segmented Box region
-    frame = cv2.drawContours(display_frame,[box],0,(0,0,255),1)
+    # Desenhando o contorno da área da barra encontrada
+    frame = cv2.drawContours(countours_frame,[box],0,(0,0,255),1)
 
     on_count = cv2.contourArea(blob)
     total_count = sw*sh
@@ -74,9 +75,9 @@ def analyze_blob(matblobs,display_frame, file):
     if fill_ratio < 0.2 :
       continue
 
-    #print('display_frame[int(cy),int(cx),0] ->', display_frame[int(cy),int(cx),0])
+    #print('countours_frame[int(cy),int(cx),0] ->', countours_frame[int(cy),int(cx),0])
     # remove blob that is too bright
-    if display_frame[int(cy),int(cx),0] > 75:
+    if countours_frame[int(cy),int(cx),0] > 75:
       continue
 
     valid_blobs.append(blob)
@@ -84,7 +85,7 @@ def analyze_blob(matblobs,display_frame, file):
   if valid_blobs:
     #print("Number of Bars : " ,len(valid_blobs))
     print("O Arquivo {}, possui um total de {} linhas pretas".format(os.path.basename(file), len(valid_blobs)))
-  cv2.imshow("display_frame_in",display_frame)
+  cv2.imshow("countours_frame_in",countours_frame)
 
   return valid_blobs
 
@@ -113,7 +114,7 @@ def main_process():
     # cv2.imshow("thresholding",thresh1)
     # cv2.waitKey(1)
 
-    matmorph = morph_operation(thresh1)
+    matmorph = morph_function(thresh1)
     # cv2.imshow("matmorph",matmorph)
     # cv2.waitKey(1)
 
