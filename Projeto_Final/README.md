@@ -1,17 +1,21 @@
-# Projeto Final de Processamento de Imagens 2021 - Relatório Parcial - Entrega: 23/06/2021
+# Projeto Final de Processamento de Imagens 2021 - Relatório Final - Entrega: 14/07/2021
 
 
 Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 |Douglas Queiroz Galúcio Batista Nº USP: 12114819
 :------------------------------:|:------------------------------:
 
-## Título do Projeto: Técnicas de realce, restauração e morfologia aplicadas em imagens para detecção do nível do rio em São Carlos.
+## Título do Projeto: Técnicas de realce, restauração, segmentação e morfologia aplicadas em imagens para detecção do nível de rios. 
 
   
 ### Resumo:
 
 <p align="justify">
-Nos últimos anos, o aumento de eventos de enchentes e inundações vêm afetando o mundo inteiro. No Brasil, frequentemente ocorrem enchentes e inundações, principalmente durante os períodos chuvosos. Esses eventos resultam em grandes prejuízos sociais e econômicos. No município de São Carlos, localizado no interior de São Paulo, constantemente ocorrem episódios de enchentes que acarretam em muitos danos para a população local. À vista disso, esse projeto visa minimizar os danos causados pelas enchentes, bem como facilitar a detecção desses eventos através da medição dos marcadores de nível de rio e aplica técnicas de realce, restauração e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível dos rios.
+Esse projeto visa detectar o nível de rios através da medição de marcadores de nível de água. Para tal fim, foram aplicadas técnicas de realce, restauração, segmentação e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível de rios.
 </p>
+
+
+
+Esse projeto visa minimizar danos causados por enchentes através da medição de marcadores de nível de rio. Para isso, as técnicas de realce, restauração, segmentação e morfologia são aplicadas em imagens
 
 ### Objetivo Principal do Projeto:
 
