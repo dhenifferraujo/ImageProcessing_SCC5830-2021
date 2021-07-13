@@ -57,6 +57,10 @@ Imagem Resultado - Sucesso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste01.jpeg" width="400" height="400">
 
+Imagem Resultado - Fracasso
+:------------------------------:
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste01.jpeg" width="400" height="400">
+
  
 ### Código do projeto:
 
