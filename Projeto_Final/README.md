@@ -62,7 +62,7 @@ Imagem 7: Resultado - Sucesso |Imagem 8: Resultado - Sucesso
 
 Imagem Resultado - Sucesso
 :------------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste01_out(teste).png" width="600" height="600">
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste01_out(teste).png" width="100" height="600">
 
 Imagem Resultado - Fracasso
 :------------------------------:
