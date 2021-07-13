@@ -104,12 +104,12 @@ def main_process():
     img = cv2.imread(file)  
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
-    # Blured to remove noise 
+    # Função Gaussiana para adicionar ruído (blur)
     blurred = cv2.GaussianBlur(gray,(3,3),-1)
     
-    # applying Otsu thresholding
-    # as an extra flag in binary 
-    # thresholding     
+    # Aplicando a técnica 'thresholding Otsu'
+    # Extrair a característica da binarização da imagem
+    # Otsu thresholding     
     ret, thresh1 = cv2.threshold(blurred, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)  
     # cv2.imshow("thresholding",thresh1)
     # cv2.waitKey(1)
