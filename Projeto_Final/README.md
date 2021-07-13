@@ -16,8 +16,7 @@ Esse projeto visa detectar o nível de rios através da medição de marcadores 
 ### Objetivo Principal do Projeto:
 
 <p align="justify">
-Aplicar técnicas de processamento de imagens, tais como realce, restauração, segmentação e morfologia em imagens de marcadores de nível de água, a fim de  melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível de água de rios. 
-</p>
+Aplicar técnicas de processamento de imagens, tais como realce, restauração, segmentação e morfologia em imagens de marcadores de nível de água. 
 
 ### Descrição das Imagens de Entrada:
 
@@ -50,7 +49,7 @@ Imagem 5|Imagem 6
 - Após as imagens serem convertidas em escala de cinza. Aplicamos os métodos morfológicos *erode()* e *dilate()* (erosão e dilatação). Usamos esses métodos para remover ruídos das imagens. 
 - Utilizamos o método *threshold()* com binarização de Otsu para segmentar as imagens, ou seja, aplicar o limite (limiar). Optamos por usar a binarização de Otsu porque estamos trabalhando com imagens bimodais. 
 - Após as imagens serem segmentadas, aplicamos o método *findCountours()* para encontrar os contornos. Ou seja, encontrar as barras pretas em um fundo branco. 
-- Por fim, criamos um laço de repetição para percorrer todos os contornos encontrados e verificar os contornos mais adequados para as caracteríticas de uma barra. Levando em consideração a distância e ângulo em que a imagem capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
+- Por fim, criamos um laço de repetição para percorrer e contar todos os contornos em forma de retângulo encontrados. Para isso, foi levado em consideração a distância e ângulo em que a imagem foi capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
  
 ### Código Inicial:
 
