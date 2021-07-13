@@ -22,7 +22,7 @@ Aplicar técnicas de processamento de imagens, tais como realce, restauração, 
 ### Descrição das Imagens de Entrada:
 
 <p align="justify">
-As imagens utilizadas nesse projeto são marcadores de nível de rio. Para a realização dos testes iniciais, nós utilizamos imagens de simulação de marcadores elaboradas manualmente pelos autores. Para essa primeira etapa dos testes as imagens se diferenciam pelo ângulo, distância e resolução. 
+As imagens utilizadas nesse projeto são marcadores de nível de rio elaboradas sinteticamente pelos autores. Essas imagens diferenciam-se pelo ângulo, distância e resolução. Para simular um ambiente real nos experimentos, nós capturamos as imagens com algumas interferências. De forma que as barras (marcadores de nível) não ficassem totalmente visíveis. 
 </p>
 
 ### Exemplos de imagens de entrada:
