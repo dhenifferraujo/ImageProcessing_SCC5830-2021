@@ -19,10 +19,10 @@ def morph_function(matinput):
 
 
 # Análise das características
-def analyze_blob(matblobs,countours_frame, file):
+def analyze_bars(matblobs,countours_frame, file):
 
   blobs,_ = cv2.findContours(matblobs,cv2.RETR_LIST ,cv2.CHAIN_APPROX_SIMPLE)
-  valid_blobs = []
+  valid_bars = []
 
   for i,bar in enumerate(blobs):
     rot_rect = cv2.minAreaRect(bar)
@@ -36,7 +36,7 @@ def analyze_blob(matblobs,countours_frame, file):
     box = np.int0(box)
 
     # Desenhando o contorno da área da barra encontrada
-    frame = cv2.drawContours(countours_frame,[box],0,(0,0,255),1)
+    frame = cv2.drawContours(countours_frame,[box],0,(0,255,0),1)
 
     on_count = cv2.contourArea(bar)
     total_count = sw*sh
@@ -49,45 +49,54 @@ def analyze_blob(matblobs,countours_frame, file):
       sh = temp
 
       
-    #print('Area: ', sw * sh)
 
     # Área mínima 
-    if sw * sh < 1400:
+    if sw * sh < 1000:
       continue
 
     # Área máxima
-    if sw * sh > 1750:
+    if sw * sh > 4000:
       continue  
 
+
+
+    #print('Area: ', sw * sh)
 
     # Proporção da barra
     rect_ratio = sw / sh
 
     #print('rect_ratio:', rect_ratio)
 
-    if rect_ratio <= 10 or rect_ratio >= 14.5:
+    if rect_ratio <= 9 or rect_ratio >= 14.5:
+
       continue
+
+
+    # Desenhando o contorno da área da barra encontrada
+    #frame = cv2.drawContours(countours_frame,[box],0,(0,0,255),1)
 
     # Proporção do preenchimento
     fill_ratio = on_count / total_count
     #print('fill_ratio: ', fill_ratio)
 
-    if fill_ratio < 0.2 :
+    if fill_ratio < 0.7 :
       continue
 
     #print('countours_frame[int(cy),int(cx),0] ->', countours_frame[int(cy),int(cx),0])
     # Remove as barras que são mais claras
-    if countours_frame[int(cy),int(cx),0] > 75:
+    if countours_frame[int(cy),int(cx),0] > 200:
       continue
 
-    valid_blobs.append(bar)
+    valid_bars.append(bar)
 
-  if valid_blobs:
-    #print("Number of Bars : " ,len(valid_blobs))
-    print("O Arquivo {}, possui um total de {} linhas pretas".format(os.path.basename(file), len(valid_blobs)))
+  if valid_bars:
+    print("O Arquivo {}, possui um total de {} linhas pretas".format(os.path.basename(file), len(valid_bars)))
+  
+  print('-----fim --> ', format(os.path.basename(file)), '\n\n')
   cv2.imshow("countours_frame_in",countours_frame)
+  cv2.waitKey(1)
 
-  return valid_blobs
+  return valid_bars
 
 
 def main_process():
@@ -99,7 +108,7 @@ def main_process():
   # camera.capture('../imgs/in/image.jpg')
   # camera.stop_preview()
 
-  for file in glob.glob("../imgs/in/*"):
+  for file in glob.glob("../imgs/in/teste/*"):
 
     img = cv2.imread(file)  
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
@@ -118,15 +127,15 @@ def main_process():
     # cv2.imshow("matmorph",matmorph)
     # cv2.waitKey(1)
 
-    display_color = cv2.cvtColor(gray,cv2.COLOR_GRAY2BGR)
-    valid_blobs = analyze_blob(matmorph,display_color, file)
+    img_with_bars = cv2.cvtColor(gray,cv2.COLOR_GRAY2BGR)
+    valid_bars = analyze_bars(matmorph,img_with_bars, file)
 
 
-    for b in range(len(valid_blobs)):
-      cv2.drawContours(display_color,valid_blobs,b,(0,255,255),-1)
+    for b in range(len(valid_bars)):
+      cv2.drawContours(img_with_bars,valid_bars,b,(0,255,255),-1)
 
-    # cv2.imshow("display_color",display_color)
-    # cv2.imwrite('../imgs/out/saida7.png', display_color)
+    # cv2.imshow("img_with_bars",img_with_bars)
+    # cv2.imwrite('../imgs/out/saida7.png', img_with_bars)
     # cv2.waitKey(0)
 
     
@@ -134,7 +143,7 @@ def main_process():
     plt.title('Original'), plt.xticks([]), plt.yticks([])
     plt.subplot(132),plt.imshow(thresh1,cmap = 'gray')
     plt.title('Segmentação'), plt.xticks([]), plt.yticks([])
-    plt.subplot(133),plt.imshow(display_color,cmap = 'gray')
+    plt.subplot(133),plt.imshow(img_with_bars,cmap = 'gray')
     plt.title('Barras encontradas'), plt.xticks([]), plt.yticks([])
     plt.show()
 
