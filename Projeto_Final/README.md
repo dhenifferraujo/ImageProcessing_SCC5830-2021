@@ -4,7 +4,7 @@
 Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 |Douglas Queiroz Galúcio Batista Nº USP: 12114819
 :------------------------------:|:------------------------------:
 
-## Título do Projeto: Técnicas de realce, restauração, segmentação e morfologia aplicadas em imagens para detecção do nível de rios. 
+## Título do Projeto: Técnicas de morfologia e segmentação aplicadas em imagens para detecção do nível de rios. 
 
   
 ### Resumo:
@@ -22,7 +22,7 @@ Aplicar técnicas de processamento de imagens, tais como realce, restauração, 
 ### Descrição das Imagens de Entrada:
 
 <p align="justify">
-As imagens utilizadas nesse projeto são marcadores de nível de rio elaboradas sinteticamente pelos autores. Essas imagens diferenciam-se pelo ângulo, distância e resolução. Para simular um ambiente real nos experimentos, nós capturamos as imagens com algumas interferências. De forma que as barras (marcadores de nível) não ficassem totalmente visíveis. 
+As imagens utilizadas nesse projeto são marcadores de nível de rio elaboradas pelos próprios autores. Essas imagens diferenciam-se pelo ângulo, distância e resolução. Para simular um ambiente real nos experimentos, nós capturamos as imagens com algumas interferências. De forma que as barras (marcadores de nível) não ficassem totalmente visíveis. 
 </p>
 
 ### Exemplos de imagens de entrada:
@@ -44,13 +44,21 @@ Imagem 5|Imagem 6
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste5.jpeg" width="400" height="400">  |  <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/teste7.jpeg" width="400" height="400">
 
 
-### Materiais e Métodos:
-- Elaborar imagens com ruídos/ocultações nos marcadores para simular um cenário real;
-- Simular condições de uma foto real ao invés de usar fotos sintéticas;
-- Ler as imagens e converter em uma escala de cinza usando o filtro *"grayscale"*;
-- Utilizar técnicas de morfologia para aprimorar imagens e realçar os contornos;
-- Usar técnicas de detecção de bordas das imagens, como: *"threshold"* e *"findContours"*;
-- Utilizar técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
+### Etapas e Métodos:
+- Elaboração e captura de imagens com simulação de ruídos/interferências nos marcadores para simular um cenário real.
+- Leitura e conversão das imagens em uma escala de cinza usando o método *cvtColor()* da biblioteca OpenCV. Esse método converte uma imagem de um espaço de cor para outro.
+- Após as imagens serem convertidas em escala de cinza. Aplicamos os métodos morfológicos *erode()* e *dilate()* (erosão e dilatação). Usamos esses métodos para remover ruídos das imagens. 
+- Utilizamos o método *threshold()* com binarização de Otsu para segmentar as imagens, ou seja, aplicar o limite (limiar). Optamos por usar a binarização de Otsu porque estamos trabalhando com imagens bimodais. 
+- Após as imagens serem segmentadas, aplicamos o método *findCountours()* para encontrar os contornos. Ou seja, encontrar as barras pretas em um fundo branco. 
+- 
+  
+  
+  
+- Utilização de técnicas para a detecção de bordas das imagens capturadas, como: como: *"threshold"* e *"findContours"*;
+- Utilização de técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
+- Utilização de técnicas de morfologia para aprimorar imagens e realçar os contornos;
+
+ 
 
 ### Código Inicial:
 
