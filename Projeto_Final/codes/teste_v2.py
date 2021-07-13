@@ -108,7 +108,7 @@ def main_process():
   # camera.capture('../imgs/in/image.jpg')
   # camera.stop_preview()
 
-  for file in glob.glob("../imgs/in/teste/*"):
+  for file in glob.glob("../imgs/in/*"):
 
     img = cv2.imread(file)  
     gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
