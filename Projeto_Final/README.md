@@ -50,6 +50,8 @@ Imagem 5|Imagem 6
 - Utilizamos o método *threshold()* com binarização de Otsu para segmentar as imagens, ou seja, aplicar o limite (limiar). Optamos por usar a binarização de Otsu porque estamos trabalhando com imagens bimodais. 
 - Após as imagens serem segmentadas, aplicamos o método *findCountours()* para encontrar os contornos. Ou seja, encontrar as barras pretas em um fundo branco. 
 - Por fim, criamos um laço de repetição para percorrer e contar todos os contornos em forma de retângulo encontrados. Para isso, foi levado em consideração a distância e ângulo em que a imagem foi capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
+
+### Resultados:
  
 ### Código do projeto:
 
