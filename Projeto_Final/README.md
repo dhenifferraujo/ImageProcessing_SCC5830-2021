@@ -27,7 +27,7 @@ As imagens utilizadas nesse projeto são simuladores de marcadores de nível de 
 ### Exemplos de imagens de entrada:
 
 <p align="justify">
-Todas as imagens de referência podem ser acessadas no repositório <https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final> na pasta “imgs”.
+Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
 </p>
 
 Imagem 1 |Imagem 2
@@ -54,8 +54,7 @@ Imagem 5|Imagem 6
 ### Código do projeto:
 
 <p align="justify">
-Os códigos iniciais implementados nos testes podem ser acessados no repositório do GitHub 
-  <https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final> na pasta "codes".
+Os códigos implementados para este projeto final podem ser acessados neste repositório do GitHub na pasta "codes".
 </p>
 
 
