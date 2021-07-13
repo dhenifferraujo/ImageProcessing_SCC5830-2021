@@ -76,10 +76,16 @@ Imagem 10: Resultado - Fracasso
 
 ### Componentes:
 
-Dheniffer Caroline Araújo Pessoa
-Douglas Queiroz Galucio Batista
+Dheniffer Caroline Araújo Pessoa Nº USP: 12116252
 
-Funções: Nós optamos por trabalhar em conjunto em todas as etapas. Implementamos os códigos e confeccionamos o relatório juntos. 
+
+Douglas Queiroz Galucio Batista Nº USP: 12114819
+
+Funções: 
+- Implementação dos códigos (Dheniffer e Douglas);
+- Testes (Dheniffer e Douglas);
+- Documentação do código (Dheniffer e Douglas);
+- Confecção do relatório (Dheniffer e Douglas). 
 
 ### Código do projeto:
 
