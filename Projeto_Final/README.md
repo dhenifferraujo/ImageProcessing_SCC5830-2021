@@ -54,7 +54,7 @@ Imagem 5|Imagem 6
 ### Código do projeto:
 
 <p align="justify">
-Os códigos iniciais implementados nos testes podem ser acessados no repositório do GitHub <https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final> na pasta "codes".
+Os códigos iniciais implementados nos testes podem ser acessados no repositório do GitHub < https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/tree/main/Projeto_Final > na pasta "codes".
 </p>
 
 
