@@ -92,7 +92,7 @@ def analyze_bars(matblobs,countours_frame, file):
   if valid_bars:
     print("O Arquivo {}, possui um total de {} linhas pretas".format(os.path.basename(file), len(valid_bars)))
   
-  print('-----fim --> ', format(os.path.basename(file)), '\n\n')
+  #print('-----fim --> ', format(os.path.basename(file)), '\n\n')
   cv2.imshow("countours_frame_in",countours_frame)
   cv2.waitKey(1)
 
