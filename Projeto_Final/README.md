@@ -36,7 +36,7 @@ Imagem 1 |Imagem 2
 
 Imagem 3 |Imagem 4
 :-------------------------:|:-------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste03.jpeg" width="400" height="400"> | <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste04.jpeg" width="400" height="400">
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste03.jpeg" width="400" height="400"> | <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste08.jpeg" width="400" height="400">
 
 Imagem 5|Imagem 6  
 :-------------------------:|:-------------------------:
