@@ -16,7 +16,7 @@ Esse projeto visa detectar o nível de rios através da medição de marcadores 
 ### Objetivo Principal do Projeto:
 
 <p align="justify">
-Melhorar o processo de detecção de enchentes através da aplicação de técnicas de processamento de imagens, tais como realce, restauração e morfologia em imagens capturadas dos rios de São Carlos, a fim de  melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível de água dos rios. 
+Aplicar técnicas de processamento de imagens, tais como realce, restauração, segmentação e morfologia em imagens de marcadores de nível de água, a fim de  melhorar a resolução das imagens e permitir uma análise mais precisa da medição do nível de água de rios. 
 </p>
 
 ### Descrição das Imagens de Entrada:
