@@ -22,7 +22,7 @@ Aplicar técnicas de processamento de imagens, tais como realce, restauração, 
 ### Descrição das Imagens de Entrada:
 
 <p align="justify">
-As imagens utilizadas nesse projeto são marcadores de nível de rio elaboradas pelos próprios autores. Essas imagens diferenciam-se pelo ângulo, distância e resolução. Para simular um ambiente real nos experimentos, nós capturamos as imagens com algumas interferências. De forma que as barras (marcadores de nível) não ficassem totalmente visíveis. 
+As imagens utilizadas nesse projeto são simuladores de marcadores de nível de rio elaboradas pelos próprios autores. Essas imagens diferenciam-se pelo ângulo, distância e resolução. Para simular um ambiente real nos experimentos, nós capturamos as imagens com algumas interferências. De forma que as barras (marcadores de nível) não ficassem totalmente visíveis. 
 </p>
 
 ### Exemplos de imagens de entrada:
@@ -50,16 +50,8 @@ Imagem 5|Imagem 6
 - Após as imagens serem convertidas em escala de cinza. Aplicamos os métodos morfológicos *erode()* e *dilate()* (erosão e dilatação). Usamos esses métodos para remover ruídos das imagens. 
 - Utilizamos o método *threshold()* com binarização de Otsu para segmentar as imagens, ou seja, aplicar o limite (limiar). Optamos por usar a binarização de Otsu porque estamos trabalhando com imagens bimodais. 
 - Após as imagens serem segmentadas, aplicamos o método *findCountours()* para encontrar os contornos. Ou seja, encontrar as barras pretas em um fundo branco. 
-- 
-  
-  
-  
-- Utilização de técnicas para a detecção de bordas das imagens capturadas, como: como: *"threshold"* e *"findContours"*;
-- Utilização de técnicas de restauração de imagens, como: filtros adaptativos e eliminação de ruídos;
-- Utilização de técnicas de morfologia para aprimorar imagens e realçar os contornos;
-
+- Por fim, criamos um laço de repetição para percorrer todos os contornos encontrados e verificar os contornos mais adequados para as caracteríticas de uma barra. Levando em consideração a distância e ângulo em que a imagem capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
  
-
 ### Código Inicial:
 
 <p align="justify">
