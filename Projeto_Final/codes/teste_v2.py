@@ -24,9 +24,9 @@ def analyze_blob(matblobs,countours_frame, file):
   blobs,_ = cv2.findContours(matblobs,cv2.RETR_LIST ,cv2.CHAIN_APPROX_SIMPLE)
   valid_blobs = []
 
-  for i,blob in enumerate(blobs):
-    rot_rect = cv2.minAreaRect(blob)
-    b_rect = cv2.boundingRect(blob)
+  for i,bar in enumerate(blobs):
+    rot_rect = cv2.minAreaRect(bar)
+    b_rect = cv2.boundingRect(bar)
 
 
     (cx,cy),(sw,sh),angle = rot_rect
@@ -38,7 +38,7 @@ def analyze_blob(matblobs,countours_frame, file):
     # Desenhando o contorno da área da barra encontrada
     frame = cv2.drawContours(countours_frame,[box],0,(0,0,255),1)
 
-    on_count = cv2.contourArea(blob)
+    on_count = cv2.contourArea(bar)
     total_count = sw*sh
     if total_count <= 0:
       continue
@@ -51,16 +51,16 @@ def analyze_blob(matblobs,countours_frame, file):
       
     #print('Area: ', sw * sh)
 
-    # minimum area
+    # Área mínima 
     if sw * sh < 1400:
       continue
 
-    # maximum area
+    # Área máxima
     if sw * sh > 1750:
       continue  
 
 
-    # ratio of box
+    # Proporção da barra
     rect_ratio = sw / sh
 
     #print('rect_ratio:', rect_ratio)
@@ -68,7 +68,7 @@ def analyze_blob(matblobs,countours_frame, file):
     if rect_ratio <= 10 or rect_ratio >= 14.5:
       continue
 
-    # ratio of fill  
+    # Proporção do preenchimento
     fill_ratio = on_count / total_count
     #print('fill_ratio: ', fill_ratio)
 
@@ -76,11 +76,11 @@ def analyze_blob(matblobs,countours_frame, file):
       continue
 
     #print('countours_frame[int(cy),int(cx),0] ->', countours_frame[int(cy),int(cx),0])
-    # remove blob that is too bright
+    # Remove as barras que são mais claras
     if countours_frame[int(cy),int(cx),0] > 75:
       continue
 
-    valid_blobs.append(blob)
+    valid_blobs.append(bar)
 
   if valid_blobs:
     #print("Number of Bars : " ,len(valid_blobs))
