@@ -68,11 +68,11 @@ A seguir é possível visualizar as imagens 9 e 10 em que obtivemos resultados n
 
 Imagem 9: Resultado - Fracasso
 :------------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste01_out.png" width="1000" height="600">
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste06_out.png" width="1000" height="600">
 
 Imagem 10: Resultado - Fracasso
 :------------------------------:
-<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste02_out.png" width="1000" height="600">
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste10_out.png" width="1000" height="600">
 
 ### Código do projeto:
 
