@@ -90,7 +90,7 @@ Funções:
 ### Código do projeto:
 
 <p align="justify">
-Os códigos implementados para este projeto final podem ser acessados neste repositório do GitHub na pasta "codes".
+Os códigos implementados para este projeto final podem ser acessados neste repositório do GitHub na pasta "codes". Além disso, também disponibilizamos o código no Google Colaboratory: https://colab.research.google.com/drive/13qJhB5LvE3X73-HtU4uv6TLXcb4Hy00l?usp=sharing
 </p>
 
 
