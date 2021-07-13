@@ -73,6 +73,7 @@ Imagem 9: Resultado - Fracasso
 Imagem 10: Resultado - Fracasso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste02_out.png" width="1000" height="600">
+
 ### Código do projeto:
 
 <p align="justify">
