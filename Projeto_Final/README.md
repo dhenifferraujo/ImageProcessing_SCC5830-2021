@@ -27,7 +27,7 @@ As imagens utilizadas nesse projeto são simuladores de marcadores de nível de 
 ### Exemplos de imagens de entrada:
 
 <p align="justify">
-Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs”.
+Todas as imagens de referência podem ser acessadas neste repositório na pasta “imgs/in”.
 </p>
 
 Imagem 1 |Imagem 2
@@ -52,7 +52,8 @@ Imagem 5|Imagem 6
 - Por fim, criamos um laço de repetição para percorrer e contar todos os contornos em forma de retângulo encontrados. Para isso, foi levado em consideração a distância e ângulo em que a imagem foi capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
 
 ### Resultados:
-
+Todas as imagens de saída podem ser acessadas neste repositório na pasta “imgs/out”.
+<img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/in/teste01.jpeg" width="400" height="400">
 
  
 ### Código do projeto:
