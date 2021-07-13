@@ -52,6 +52,8 @@ Imagem 5|Imagem 6
 - Por fim, criamos um laço de repetição para percorrer e contar todos os contornos em forma de retângulo encontrados. Para isso, foi levado em consideração a distância e ângulo em que a imagem foi capturada. Obs: os valores definidos na função para a barra a ser encontrada são uma área entre 1000 a 4000, com proporção de preenchimento entre 9 a 14.5. 
 
 ### Resultados:
+
+
  
 ### Código do projeto:
 
