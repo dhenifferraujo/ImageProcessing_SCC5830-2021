@@ -13,10 +13,6 @@ Dheniffer Caroline Araújo Pessoa NºUSP: 12116252 |Douglas Queiroz Galúcio Bat
 Esse projeto visa detectar o nível de rios através da medição de marcadores de nível de água. Para tal fim, foram aplicadas técnicas de realce, restauração, segmentação e morfologia nas imagens capturadas, a fim de tratar e melhorar a resolução dessas imagens e permitir uma análise mais precisa da medição do nível de rios.
 </p>
 
-
-
-Esse projeto visa minimizar danos causados por enchentes através da medição de marcadores de nível de rio. Para isso, as técnicas de realce, restauração, segmentação e morfologia são aplicadas em imagens
-
 ### Objetivo Principal do Projeto:
 
 <p align="justify">
