@@ -54,7 +54,7 @@ Imagem 5|Imagem 6
 ### Resultados:
 Todas as imagens de saída podem ser acessadas neste repositório na pasta “imgs/out”.
 
-A seguir é possível visualizar as imagens 7 e 8 em que obtivemos resultados positivos. Isto é, foram encontradas todas as barras. Essas imagens possuem algumas características em comum: as barras nas cores predominantemente escuras e o background totalmente branco. Ou seja, elas possuem poucos ruídos.   
+A seguir é possível visualizar as imagens 7 e 8 em que obtivemos resultados positivos. Isto é, foram encontradas todas as barras. Essas imagens possuem algumas características em comum: as barras nas cores predominantemente escuras e o background totalmente branco. Ou seja, elas possuem poucos ruídos. Acreditamos que obtemos bons resultados por termos utilizado métodos morfológicos que fizeram um processo de erosão e dilatação nas imagens, consequentemente, os contornos ficaram mais lineares, o que acabou facilitando a leitura e montagem dos retângulos das barras. Além disso, a aplicação do método blur deixou as imagens mais "borradas" e realçou as intersecções das cores claras e escuras.  
 
 Imagem 7: Resultado - Sucesso
 :------------------------------:
@@ -64,7 +64,7 @@ Imagem 8: Resultado - Sucesso
 :------------------------------:
 <img src="https://github.com/dhenifferraujo/ImageProcessing_SCC5830-2021/blob/main/Projeto_Final/imgs/out/teste02_out.png" width="1000" height="600">
 
-A seguir é possível visualizar as imagens 9 e 10 em que obtivemos resultados negativos. Ou seja, algumas barras não foram encontradas. A maioria das imagens que não obtivemos resultados positivos possuíam bastante ruídos. 
+A seguir é possível visualizar as imagens 9 e 10 em que obtivemos resultados negativos. Ou seja, algumas barras não foram encontradas. A maioria das imagens que não obtivemos resultados positivos possuíam bastante ruídos no sentido de pouca luminosidade. Observamos que quando a imagem possuía sombra, o método de threshold reconhecia as sombras como uma binarização escura, e consequetemente, as sombras localizadas sob as barras acabaram dificultando o realce do contorno das imagens. Como podemos visualizar nas figuras 9 e 10. Acreditamos que a maior causa desses resultados insatisfatórios são a falta de realce de luminosidade nas áreas sombreadas sob as barras. 
 
 Imagem 9: Resultado - Fracasso
 :------------------------------:
